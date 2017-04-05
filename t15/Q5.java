@@ -5,7 +5,9 @@ public class Q5 {
 	public static void main(String[] args) {
 		//The question asks for 2 classes but I'll just make 2 methods
 		Q5 q = new Q5();
+		
 		q.pattern1();
+		System.out.println();
 		q.pattern2();
 	}
 	
@@ -23,8 +25,8 @@ public class Q5 {
 	}
 	
 	private void pattern2() {
-		for (int i = 5; i > 0; i--) {
-			for (int j = 5; j >= i; j--) {
+		for (int i = 0; i < 5; i++) {
+			for (int j = 5; j > i; j--) {
 				System.out.print(j + " ");
 			}
 			System.out.println();
