@@ -41,7 +41,7 @@ public class Q4 {
 	}
 
 	private void display() {
-		System.out.println("The bill for vehicle number " + vno + " is " + bill);
+		System.out.println("The bill for vehicle number " + vno + " is " + bill + " for " + hours + "hour(s)");
 	}
 
 }
