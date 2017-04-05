@@ -29,11 +29,19 @@ public class Q4 {
 	}
 
 	private void calculate() {
-		
+		if (hours > 1) {
+			bill += 3.0;
+			
+			for (int i = 0; i < hours - 1; i++) {
+				bill += 1.50;
+			}
+		} else {
+			bill += 3;
+		}
 	}
 
 	private void display() {
-		
+		System.out.println("The bill for vehicle number " + vno + " is " + bill);
 	}
 
 }
