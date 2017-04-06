@@ -26,6 +26,8 @@ public class Q9 {
 				
 				if (count > 2) {
 					System.out.println(a + " is a composite number");
+				} else {
+					System.out.println(a + " is not a composite number");
 				}
 				
 				break;
@@ -55,6 +57,7 @@ public class Q9 {
 				break;
 
 			default:
+				System.out.println("Illegal argument");
 				break;
 		}
 		
