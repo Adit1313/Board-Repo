@@ -1,15 +1,14 @@
-package practical;
-
 import java.util.Scanner;
 import java.util.Vector;
+
+/*
+ * Q. Write a program to generate prime numbers from a range L to U where 1 <= L < U < 2147483647. Note that U - L < 10^6
+ */
 
 public class SegSieve {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		
-		System.out.println("LARGE PRIME GENERATOR");
-		System.out.println("=====================");
 
 		System.out.println("Enter lower limit");
 		int L = in.nextInt();
